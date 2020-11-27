@@ -126,12 +126,13 @@
 						'redo'
 					]
 				},
-				language: 'en',
+				language: 'ja',
 				image: {
 					toolbar: [
 						'imageTextAlternative',
 						'imageStyle:full',
-						'imageStyle:side'
+						'imageStyle:side',
+						'linkImage'
 					]
 				},
 				table: {
@@ -150,11 +151,15 @@
 				
 				
 				
+		
+				
+				
+				
 			} )
 			.catch( error => {
-				console.error( 'Oops, something gone wrong!' );
-				console.error( 'Please, report the following error in the https://github.com/ckeditor/ckeditor5 with the build id and the error stack trace:' );
-				console.warn( 'Build id: xdfa3kcr4u6o-8o65j7c6blw0' );
+				console.error( 'Oops, something went wrong!' );
+				console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
+				console.warn( 'Build id: j1zc0c4h27jb-8o65j7c6blw0' );
 				console.error( error );
 			} );
 	</script>
