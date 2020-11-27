@@ -16,11 +16,13 @@
     "@ckeditor/ckeditor5-ckfinder": "^19.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^13.0.1",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^9.0.1",
+    "@ckeditor/ckeditor5-easy-image": "^23.1.0",
     "@ckeditor/ckeditor5-editor-classic": "^19.0.0",
     "@ckeditor/ckeditor5-essentials": "^19.0.0",
     "@ckeditor/ckeditor5-heading": "^19.0.0",
     "@ckeditor/ckeditor5-image": "^19.0.0",
     "@ckeditor/ckeditor5-indent": "^19.0.0",
+    "@ckeditor/ckeditor5-link": "^23.1.0",
     "@ckeditor/ckeditor5-list": "^19.0.0",
     "@ckeditor/ckeditor5-media-embed": "^19.0.0",
     "@ckeditor/ckeditor5-paragraph": "^19.0.0",
@@ -38,8 +40,5 @@
   "scripts": {
     "build": "webpack --mode production"
   },
-  "dependencies": {
-    "@ckeditor/ckeditor5-easy-image": "^23.1.0",
-    "@ckeditor/ckeditor5-link": "^23.1.0"
-  }
+  "dependencies": {}
 }
