@@ -84,14 +84,14 @@ ClassicEditor.defaultConfig = {
 		],
 		resizeOptions: [
 			{
-				name: 'imageResize:25',
-				label: '25%',
-				value: '25'
-			},
-			{
 				name: 'imageResize:original',
 				label: '元のサイズ',
 				value: null
+			},
+			{
+				name: 'imageResize:25',
+				label: '25%',
+				value: '25'
 			},
 			{
 				name: 'imageResize:50',
