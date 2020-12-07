@@ -79,16 +79,19 @@ ClassicEditor.defaultConfig = {
 			'redo'		]
 	},
 	image: {
+		styles: [
+			'alignLeft', 'alignCenter', 'alignRight'
+		],
 		resizeOptions: [
-			{
-				name: 'imageResize:original',
-				label: 'Original',
-				value: null
-			},
 			{
 				name: 'imageResize:25',
 				label: '25%',
 				value: '25'
+			},
+			{
+				name: 'imageResize:original',
+				label: '元のサイズ',
+				value: null
 			},
 			{
 				name: 'imageResize:50',
