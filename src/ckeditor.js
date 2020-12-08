@@ -80,7 +80,9 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			'alignLeft', 'alignCenter', 'alignRight'
+			{ name: 'alignLeft', title: '左寄せ画像', icon: 'left', isDefault: true },
+			{ name: 'alignCenter', title: '中央寄せ画像', icon: 'center', isDefault: false },
+			{ name: 'alignRight', title: '右寄せ画像', icon: 'right', isDefault: false }
 		],
 		resizeOptions: [
 			{
