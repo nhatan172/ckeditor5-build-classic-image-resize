@@ -80,9 +80,7 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		styles: [
-			{ name: 'alignLeft', isDefault: true, className: 'image-style-align-left' },
-			'alignCenter',
-			'alignRight'
+			'alignLeft', 'alignCenter', 'alignRight'
 		],
 		resizeOptions: [
 			{
